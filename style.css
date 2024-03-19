@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Reset - Page */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+
+  font-family: "Roboto", sans-serif;
+
+}
+
+body{
+  color: #ffffff;
+  background-color: #6495ed;
+  
+}
+
+.cabecalho{
+  margin: 10x;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.cabecalho_link{
+  margin: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-left: 1px solid tomato;
+  font-size: 28px;
+}
+
+.principal{
+  border: 1px solid slategrey;
+}
+
+.principal_secao{
+  border: 1px solid slategrey;
+}
+
+.img-perfil{
+  width: 300px;
+  margin: 30px;
+  border-radius: 50%;
+}
